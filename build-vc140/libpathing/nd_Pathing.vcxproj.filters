@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\steph\Desktop\singularity\singularity\indra\libpathing\llpathinglib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\steph\Desktop\singularity\singularity\indra\libpathing\llphysicsextensions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\steph\Desktop\singularity\singularity\indra\libpathing\llpathinglib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\steph\Desktop\singularity\singularity\indra\libpathing\llphysicsextensions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\indra\libpathing\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D8612406-28B5-3B56-B0E4-23D1D3FF724D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{910DB7EF-CA4B-3A92-89BE-08D2825FD589}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

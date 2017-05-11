@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<panel top="20" left="10" height="400" width="517" border="true" label="[APP_NAME]" name="osgeneral">
+  <tab_container label="General" bottom="0" height="440" width="497" left="0" name="General" tab_min_width="70" tab_position="top">
+
+<!-- Old Skool General Settings Tab: General settings currently -->
+    <panel border="true" left="1" bottom="-408" height="408" width="500" label="General" name="User Interface">
+      <check_box left="10" bottom_delta="-25" control_name="OSLocalInventoryEnabled" follows="top" label="Enable Local Inventory"
+        tool_tip="Enables the folder for separation of temporary/local inventory" name="local_inventory_enabled_check"/>
+      <check_box bottom_delta="-18" control_name="AllowLargeSounds" follows="top" label="Bypass stricter sound size/sample checks for sound decoding"
+        tool_tip="Bypass stricter sound size/sample checks, which were introduced in SL2.x, for sound decoding." name="allow_large_sounds_check"/>
+      <check_box bottom_delta="-18" control_name="OSUIPlaySndInWorld" follows="top" name="ui_play_snd_in_world" label="Play UI Sounds on Ambient"
+        tool_tip="Enable the playing of UI sounds in world, to everyone"/>
+    </panel>
+
+<!-- Old Skool Security Tab: For settings that involve user security and spoofing information -->
+    <panel border="true" left="1" bottom="-580" height="525" width="418" label="Security" name="Security">
+	  <check_box bottom="-25" left="10" follows="top" label="Detect avatars sending out abnormal commands." name="display_typingstop_toggle" control_name="OSReportAbnormalTypeStop"/>
+      <check_box bottom_delta="-18" left="10" follows="top" label="Notify on Enable Simulator" name="chat_cmd_toggle" control_name="OSNotifyEnabledSimulator"/>
+      <check_box bottom_delta="-18" left="10" follows="top" label="Notify on Disable Simulator" name="chat_cmd_toggle" control_name="OSNotifyDisabledSimulator"/>
+      <check_box bottom_delta="-18" left="10" follows="top" label="Send a spoofed language to the server" name="chat_cmd_toggle" control_name="OSSpoofLanguage"/>
+      <text bottom_delta="-22" follows="top" height="16" left_delta="10" name="security_text_1">Below is the specified language:</text>
+      <line_editor bevel_style="in" border_style="line" border_thickness="1" bottom_delta="-20" follows="top" height="20" max_length="256" name="spoofed_lang" control_name="OSSpoofedLanguage" width="200"/>
+    </panel>
+    
+<!-- Old Skool Selection Beam Tab: For setting selection beam colors, shapes, timiing etc.. -->
+    <panel border="true" left="1" bottom="-580" height="525" width="418" label="Beams" name="Beams">
+    	<text font="SansSerifSmall" name="BeamPrefs" follows="left|top" left="150" bottom="-20">
+        Selection beam particle effects
+      </text>
+      
+      <view_border bevel_style="none" border_thickness="1" bottom_delta="-5" follows="top|left" height="0" left="5" name="EmDivisor" width="480" />
+      <button left="90" bottom_delta="-130" follows="left|top" width="130" height="100" name="BeamPrev_rainbow" label="" scale_image="true" image_selected="beam_rainbow.png" image_unselected="beam_rainbow.png" image_hover_selected="beam_rainbow.png" image_hover_unselected="beam_rainbow.png"/>
+      <button left="275" bottom_delta="-0" follows="left|top" width="130" height="100" name="BeamPrev_Phoenix" label="" scale_image="true" image_selected="beam_phoenix.png" image_unselected="beam_phoenix.png" image_hover_selected="beam_phoenix.png" image_hover_unselected="beam_phoenix.png"/>
+      <view_border bevel_style="none" border_thickness="1" bottom_delta="-10" follows="top|left" height="140" left="250" name="EmDivisor2" width="0" />
+      <slider bottom_delta="-15" left="15" name="MaxBeamsPerSecond" control_name="MaxBeamsPerSecond"
+             decimal_digits="0" enabled="true" follows="left|top" height="18"
+             increment="1" initial_val="4" label="Beam updates/sec:"
+             label_width="100" max_val="200" min_val="4" mouse_opaque="true"
+             show_text="true" width="240" auto_resize="false" tool_tip="How many beam updates to send in a second. Default 40"/>
+      <check_box bottom_delta="-25" control_name="BroadcastViewerEffects" follows="top" initial_value="true" label="Broadcast Viewer Effects (does not affect pointat and lookat)" left="15" name="broadcast_viewer_effects" width="400"/>
+      <check_box bottom_delta="-20" enabled="true"
+           follows="left|top" font="SansSerifSmall" height="16" initial_value="true"
+           label="Enable selection beam (turning off will hide the beam)" left="15" mouse_opaque="true"
+           name="SLPartBeam" radio_style="false" width="270" control_name="ShowSelectionBeam" />
+      <combo_box allow_text_entry="false" bottom_delta="170" left_delta="50"
+                 follows="left|top" height="18" left="10" max_chars="20"
+                 mouse_opaque="true" name="BeamColor_combo" width="170"
+                 control_name="OSBeamColorFile" tool_tip="Select the color preset for the selection beam" />
+
+      <combo_box allow_text_entry="false" bottom_delta="-0" left_delta="195"
+                 follows="left|top" height="18" left="10" max_chars="20"
+                 mouse_opaque="true" name="BeamShape_combo" width="170"
+                 control_name="OSBeamShape" tool_tip="Select the shape for the particle beam" />
+     <slider bottom_delta="-130" left_delta="15" name="BeamShapeScale" control_name="OSBeamShapeScale"
+     	decimal_digits="1" enabled="true" follows="left|top" height="18"
+     	increment="0.1" initial_val="1" label="Beam Scale:"
+     	label_width="60" max_val="4" min_val="0.1" mouse_opaque="true"
+     	show_text="true" width="190" auto_resize="false" tool_tip="Change the scale of the shape used for the Default Shaped Beam"/>
+
+      <button name="delete_beam" label="Delete" halign="center" tool_tip="Remove this beam" left="435" bottom="-53" width="55" height="20" font="SansSerifSmall" follows="left|top"/>
+      <button name="custom_beam_btn" label="Create New" tool_tip="Customize the beam shape" left_delta="-20" bottom_delta="-25" width="75" height="20" font="SansSerifSmall" follows="left|top"/>
+      <button name="refresh_beams" label="Refresh List" tool_tip="Refresh the beam list" left_delta="0" bottom_delta="-25" width="75" height="20" font="SansSerifSmall" follows="left|top"/>
+
+      <button name="BeamColor_delete" label="Delete" halign="center" tool_tip="Remove this preset" left="5" bottom="-53" width="55" height="20" font="SansSerifSmall" follows="left|top"/>
+      <button name="BeamColor_new" label="Create New" tool_tip="Create a new color preset" left_delta="-0" bottom_delta="-25" width="75" height="20" font="SansSerifSmall" follows="left|top"/>
+      <button name="BeamColor_refresh" label="Refresh List" tool_tip="Refresh the preset list" left_delta="0" bottom_delta="-25" width="75" height="20" font="SansSerifSmall" follows="left|top"/>
+      
+      <text font="SansSerifSmall" name="BeamPrefs_2" follows="left|top" left="150" bottom="-245">
+        Selection beam texture settings
+      </text>
+      
+      <view_border bevel_style="none" border_thickness="1" bottom_delta="-5" follows="top|left" height="0" left="5" name="EmDivisor_2" width="480" />   
+      
+      <check_box bottom_delta="-20" enabled="true"
+           follows="left|top" font="SansSerifSmall" height="16" initial_value="false"
+           label="Use Texture Beams" left="15" mouse_opaque="true"
+           name="lol-toggle!" radio_style="false" width="270" control_name="OSParticleChat" />
+	
+	<texture_picker allow_no_texture="true" top_delta="20" default_image_name="None"
+	     follows="left|top" height="125" label="" left="282" mouse_opaque="true"
+	     name="texture_beam_pick" width="125" control_name="TextureBeamsImage" />
+	
+    </panel>
+    
+    <panel border="true" left="1" bottom="-190" height="180" width="500" label="MouseLook" name="MouseLook">
+     
+      <!--Mouselook-->
+      <text bottom_delta="-30" left_delta="5" follows="top" height="10" name="Mouselook">Mouselook Settings.</text>
+      <check_box bottom_delta="-25" left_delta="-5" control_name="MouselookIFF" follows="top" height="16" initial_value="false" label="Render Mouselook Target Search Pointers." tool_tip="" name="renderIFF"/>
+      <check_box bottom_delta="-20" control_name="MouselookFriendlyIFF" follows="top" height="16" initial_value="false" label="Render Mouselook Target Search Pointers For Avatars On Your Friendlist" tool_tip="" name="renderFriendlyIFF"/>
+      <check_box bottom_delta="-20" control_name="MouselookHostileIFF" follows="top" height="16" initial_value="false" label="Render Mouselook Target Search Pointers For Normal Hostile Avatars" tool_tip="" name="renderHostileIFF"/>
+      <text bottom_delta="-30" left_delta="5" follows="top" height="10" name="Mouselook">Set Base Mouselook Crosshair Texture ID:</text>
+      <combo_box control_name="MouselookCrosshair" follows="left|top|right" layout="topleft" left="15" height="23" top_delta="-16" width="232" max_chars="128" name="combo_box">
+        <combo_item name="Square" value="996e6dc9-9842-5e48-aa2c-90bfaac43a54">Square</combo_item>
+        <combo_item name="Plus (Small)" value="826b1f79-9af0-9bd0-95fd-aa457566dff7">Plus (Small)</combo_item>
+        <combo_item name="Plus (Faded)" value="1b115f01-e8c4-7833-7fa1-928413e00fca">Plus (Faded)</combo_item>
+        <combo_item name="Plus (Faded w/Gap)" value="9701a233-a7d5-3fb0-3d0a-22cb2318f6cc">Plus (Faded w/Gap)</combo_item>
+        <combo_item name="Cross (Small)" value="206ee51b-1873-3525-3917-afb276d684cc">Cross (Small)</combo_item>
+        <combo_item name="Cross (Faded)" value="5a587091-06ae-401e-e939-9136587f992a">Cross (Faded)</combo_item>
+        <combo_item name="Cross (Faded w/Gap)" value="450755dc-db23-6f19-cedd-38f16598b6d8">Cross (Faded w/Gap)</combo_item>
+        <combo_item name="Circle" value="c61e17ab-6e35-8cf4-f472-f60e1b8ead25">Circle</combo_item>
+        <combo_item name="Dot" value="613a3b8c-e2bf-2c76-5607-201f46254b37">Dot</combo_item>
+      </combo_box>
+      <text bottom_delta="28" left_delta="240" follows="top" height="10" name="Mouselook">Set Custom Mouselook Crosshair Texture ID:</text>
+      <line_editor border_style="line" border_thickness="1" follows="left|top" font="SansSerifSmall" height="24" layout="topleft" top_delta="-21" left_delta="0" max_length_bytes="36" width="215" name="crosshair_id" control_name="MouselookCrosshair" tool_tip="For setting a custom texture key for the crosshair texture." />
+    </panel>
+   
+  </tab_container>
+</panel>

@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{111FDD20-FD91-384E-AEAD-7D4AEFB88F21}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\indra\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/steph/Desktop/singularity/singularity/indra/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/steph/Desktop/singularity/singularity/indra -BC:/Users/steph/Desktop/singularity/singularity/build-vc140 --check-stamp-file C:/Users/steph/Desktop/singularity/singularity/build-vc140/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/steph/Desktop/singularity/singularity/indra/CMakeLists.txt;C:\Users\steph\Desktop\singularity\singularity\indra\CMakeLists.txt;C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.1\CMakeCCompiler.cmake;C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\steph\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\steph\Desktop\singularity\singularity\indra\cmake\BuildVersion.cmake;C:\Users\steph\Desktop\singularity\singularity\indra\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/steph/Desktop/singularity/singularity/indra/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/steph/Desktop/singularity/singularity/indra -BC:/Users/steph/Desktop/singularity/singularity/build-vc140 --check-stamp-file C:/Users/steph/Desktop/singularity/singularity/build-vc140/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/steph/Desktop/singularity/singularity/indra/CMakeLists.txt;C:\Users\steph\Desktop\singularity\singularity\indra\CMakeLists.txt;C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.1\CMakeCCompiler.cmake;C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\steph\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\steph\Desktop\singularity\singularity\indra\cmake\BuildVersion.cmake;C:\Users\steph\Desktop\singularity\singularity\indra\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/steph/Desktop/singularity/singularity/indra/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/Users/steph/Desktop/singularity/singularity/indra -BC:/Users/steph/Desktop/singularity/singularity/build-vc140 --check-stamp-file C:/Users/steph/Desktop/singularity/singularity/build-vc140/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/steph/Desktop/singularity/singularity/indra/CMakeLists.txt;C:\Users\steph\Desktop\singularity\singularity\indra\CMakeLists.txt;C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.1\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.1\CMakeCCompiler.cmake;C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.1\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\3.8.1\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\steph\Desktop\singularity\singularity\indra\cmake\Variables.cmake;C:\Users\steph\Desktop\singularity\singularity\indra\cmake\BuildVersion.cmake;C:\Users\steph\Desktop\singularity\singularity\indra\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\ZERO_CHECK.vcxproj">
+      <Project>{D827D77F-A3F6-3B0D-AEA3-198885527A48}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llplugin\slplugin\SLPlugin.vcxproj">
+      <Project>{D0A64283-0207-3DEB-8151-ECBACF4E2DD1}</Project>
+      <Name>SLPlugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\aistatemachine\aistatemachine.vcxproj">
+      <Project>{1F71EA7B-74C4-3D07-AAC7-85BFFCAB824C}</Project>
+      <Name>aistatemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\plugins\base_basic\basic_plugin_base.vcxproj">
+      <Project>{CF83ECDD-A1DE-3DDE-A35C-23B6985C8E7F}</Project>
+      <Name>basic_plugin_base</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\plugins\example_basic\basic_plugin_example.vcxproj">
+      <Project>{246C1819-29AF-3611-9477-31C4EF0FB222}</Project>
+      <Name>basic_plugin_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\plugins\filepicker\basic_plugin_filepicker.vcxproj">
+      <Project>{04D7D508-D31D-3C4A-88DD-7570056BBEA8}</Project>
+      <Name>basic_plugin_filepicker</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\cmake\cmake.vcxproj">
+      <Project>{40EE85B1-68CB-3496-9D99-7594D1D8786C}</Project>
+      <Name>cmake</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\newview\copy_w_viewer_manifest.vcxproj">
+      <Project>{863B742D-92F5-3BCA-8862-9538BA35BF0A}</Project>
+      <Name>copy_w_viewer_manifest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\copy_win_scripts\copy_win_scripts.vcxproj">
+      <Project>{B0354BF9-7325-3047-B4AF-A6CB2D9B7E69}</Project>
+      <Name>copy_win_scripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\newview\generate_viewer_version.vcxproj">
+      <Project>{ED1D9274-1B39-30F5-B826-C17AD961C950}</Project>
+      <Name>generate_viewer_version</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\libhacd\hacd.vcxproj">
+      <Project>{840E4188-8E01-3FCD-B62D-6930C5497801}</Project>
+      <Name>hacd</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llappearance\llappearance.vcxproj">
+      <Project>{2219F058-C341-3F8D-82B8-B279A842490C}</Project>
+      <Name>llappearance</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llaudio\llaudio.vcxproj">
+      <Project>{A141F60B-AB04-3783-BF86-DF3B432B445F}</Project>
+      <Name>llaudio</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llcharacter\llcharacter.vcxproj">
+      <Project>{DAC02361-3A0D-3656-8E49-9C779594F6E5}</Project>
+      <Name>llcharacter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llcommon\llcommon.vcxproj">
+      <Project>{B1BDB0EF-F74B-30E8-BB13-3D9A8D2726A6}</Project>
+      <Name>llcommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llimage\llimage.vcxproj">
+      <Project>{A9FC2E1D-97C5-3540-9084-10747C99F65A}</Project>
+      <Name>llimage</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llimagej2coj\llimagej2coj.vcxproj">
+      <Project>{1F3E9AA1-D4BD-36C7-A5BE-9FDA96FF1B17}</Project>
+      <Name>llimagej2coj</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llinventory\llinventory.vcxproj">
+      <Project>{0BEC7924-1622-37E6-B0BA-764B43C39C34}</Project>
+      <Name>llinventory</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llmath\llmath.vcxproj">
+      <Project>{D5B29165-EC31-30BD-A71A-B08FD1DD7E99}</Project>
+      <Name>llmath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llmessage\llmessage.vcxproj">
+      <Project>{67059860-51D3-37F9-BA28-BDDBE85D0A42}</Project>
+      <Name>llmessage</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llplugin\llplugin.vcxproj">
+      <Project>{31509BD8-8955-39D8-8A92-5ACFD56B8319}</Project>
+      <Name>llplugin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llprimitive\llprimitive.vcxproj">
+      <Project>{339687B3-18C9-328E-85AC-A21C9D2F3DCB}</Project>
+      <Name>llprimitive</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llrender\llrender.vcxproj">
+      <Project>{1633C229-56F9-360D-BE81-B4145B7AEEF5}</Project>
+      <Name>llrender</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llui\llui.vcxproj">
+      <Project>{3122C023-965E-370E-BD36-1CFB434CE35C}</Project>
+      <Name>llui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llvfs\llvfs.vcxproj">
+      <Project>{4BA9F318-E73A-37E9-A0B5-9EF90CDBCE9C}</Project>
+      <Name>llvfs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llwindow\llwindow.vcxproj">
+      <Project>{F8F71CB2-4869-310C-9EF6-254BA8D56F0D}</Project>
+      <Name>llwindow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llxml\llxml.vcxproj">
+      <Project>{7292C604-7439-3F78-B34F-6DE94D09445C}</Project>
+      <Name>llxml</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\plugins\base_media\media_plugin_base.vcxproj">
+      <Project>{B95902F0-3849-3C4D-B964-DA895FDC4089}</Project>
+      <Name>media_plugin_base</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\plugins\cef\media_plugin_cef.vcxproj">
+      <Project>{906C18BC-4CBC-3AF1-A5A9-E94C2F39A060}</Project>
+      <Name>media_plugin_cef</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\plugins\example_media\media_plugin_example.vcxproj">
+      <Project>{D5A20478-0948-3E29-89C4-5B5D267FF5EC}</Project>
+      <Name>media_plugin_example</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\plugins\quicktime\media_plugin_quicktime.vcxproj">
+      <Project>{823E8166-43A1-3874-B0D3-B1249A414E8E}</Project>
+      <Name>media_plugin_quicktime</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\libpathing\nd_Pathing.vcxproj">
+      <Project>{DDA06E93-7AE1-342D-B6E7-6C4D0B3AE80C}</Project>
+      <Name>nd_Pathing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\libndhacd\nd_hacdConvexDecomposition.vcxproj">
+      <Project>{2773BFD3-04F0-3EE3-983B-E7B1FF50DF31}</Project>
+      <Name>nd_hacdConvexDecomposition</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\libopenjpeg\openjpeg.vcxproj">
+      <Project>{8662BB18-6183-3F10-B56C-4C661A11E5FA}</Project>
+      <Name>openjpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\newview\singularity-bin.vcxproj">
+      <Project>{603DD0BC-8FA5-397B-AD21-CF13B78DF211}</Project>
+      <Name>singularity-bin</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llcommon\stage_third_party_libs.vcxproj">
+      <Project>{5D2C096A-8E1D-37B0-BAFA-48A22EF447E6}</Project>
+      <Name>stage_third_party_libs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\newview\statemachine\statemachine.vcxproj">
+      <Project>{2DE4CCC8-E68A-3E33-A23A-4B39C757F97D}</Project>
+      <Name>statemachine</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

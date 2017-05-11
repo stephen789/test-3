@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\indra\newview\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\6860d47e0d0f05034809eb176e605b29\generate_viewer_version.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\newview\CMakeFiles\generate_viewer_version" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B963FCF5-2826-3F84-A4CB-28A784CB0513}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

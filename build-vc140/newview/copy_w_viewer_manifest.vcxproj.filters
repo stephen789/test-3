@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\indra\newview\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\b50f369b8c6ad18daec575c12af7c0bd\copy_touched.bat.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\6860d47e0d0f05034809eb176e605b29\copy_w_viewer_manifest.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\newview\CMakeFiles\copy_w_viewer_manifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B963FCF5-2826-3F84-A4CB-28A784CB0513}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\indra\copy_win_scripts\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\a7bde5dd4a61992107cf176ebebb17a6\start-client.py.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\2c2c8afd2be46ef1314e4e943f8e4920\copy_win_scripts.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\copy_win_scripts\CMakeFiles\copy_win_scripts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B963FCF5-2826-3F84-A4CB-28A784CB0513}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\indra\cmake\CMakeLists.txt">
+      <Filter>Shared Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shared Rules">
+      <UniqueIdentifier>{D9EB85F6-642A-3470-AEA5-3EC2D3712615}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

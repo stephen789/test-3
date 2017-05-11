@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\indra\llcommon\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\a5d190f2321e107caa9eff64c88323e3\SLVoice.exe.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\a5d190f2321e107caa9eff64c88323e3\ca-bundle.crt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\a5d190f2321e107caa9eff64c88323e3\libsndfile-1.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\a5d190f2321e107caa9eff64c88323e3\vivoxplatform.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\a5d190f2321e107caa9eff64c88323e3\vivoxsdk.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\a5d190f2321e107caa9eff64c88323e3\ortp.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\a5d190f2321e107caa9eff64c88323e3\zlib1.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\a5d190f2321e107caa9eff64c88323e3\vivoxoal.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\9aa4b02d9da7128f350c53e66be5b4dc\SLVoice.exe.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\9aa4b02d9da7128f350c53e66be5b4dc\ca-bundle.crt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\9aa4b02d9da7128f350c53e66be5b4dc\libsndfile-1.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\9aa4b02d9da7128f350c53e66be5b4dc\vivoxplatform.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\9aa4b02d9da7128f350c53e66be5b4dc\vivoxsdk.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\9aa4b02d9da7128f350c53e66be5b4dc\ortp.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\9aa4b02d9da7128f350c53e66be5b4dc\zlib1.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\9aa4b02d9da7128f350c53e66be5b4dc\vivoxoal.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\0eaffda7290b92ded4fb524bf3a3930d\SLVoice.exe.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\0eaffda7290b92ded4fb524bf3a3930d\ca-bundle.crt.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\0eaffda7290b92ded4fb524bf3a3930d\libsndfile-1.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\0eaffda7290b92ded4fb524bf3a3930d\vivoxplatform.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\0eaffda7290b92ded4fb524bf3a3930d\vivoxsdk.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\0eaffda7290b92ded4fb524bf3a3930d\ortp.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\0eaffda7290b92ded4fb524bf3a3930d\zlib1.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\0eaffda7290b92ded4fb524bf3a3930d\vivoxoal.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\a5d190f2321e107caa9eff64c88323e3\libapr-1.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\a5d190f2321e107caa9eff64c88323e3\libaprutil-1.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\a5d190f2321e107caa9eff64c88323e3\libapriconv-1.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\a5d190f2321e107caa9eff64c88323e3\ssleay32.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\a5d190f2321e107caa9eff64c88323e3\libeay32.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\a5d190f2321e107caa9eff64c88323e3\glod.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\a5d190f2321e107caa9eff64c88323e3\libhunspell.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\a5d190f2321e107caa9eff64c88323e3\libtcmalloc_minimal-debug.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\a5d190f2321e107caa9eff64c88323e3\fmodL.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\9aa4b02d9da7128f350c53e66be5b4dc\libapr-1.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\9aa4b02d9da7128f350c53e66be5b4dc\libaprutil-1.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\9aa4b02d9da7128f350c53e66be5b4dc\libapriconv-1.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\9aa4b02d9da7128f350c53e66be5b4dc\ssleay32.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\9aa4b02d9da7128f350c53e66be5b4dc\libeay32.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\9aa4b02d9da7128f350c53e66be5b4dc\glod.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\9aa4b02d9da7128f350c53e66be5b4dc\libhunspell.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\9aa4b02d9da7128f350c53e66be5b4dc\libtcmalloc_minimal.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\9aa4b02d9da7128f350c53e66be5b4dc\fmod.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\0eaffda7290b92ded4fb524bf3a3930d\libapr-1.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\0eaffda7290b92ded4fb524bf3a3930d\libaprutil-1.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\0eaffda7290b92ded4fb524bf3a3930d\libapriconv-1.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\0eaffda7290b92ded4fb524bf3a3930d\ssleay32.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\0eaffda7290b92ded4fb524bf3a3930d\libeay32.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\0eaffda7290b92ded4fb524bf3a3930d\glod.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\0eaffda7290b92ded4fb524bf3a3930d\libhunspell.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\0eaffda7290b92ded4fb524bf3a3930d\libtcmalloc_minimal.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\0eaffda7290b92ded4fb524bf3a3930d\fmod.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\CMakeFiles\2cb37427a16e4043858594e71db33624\stage_third_party_libs.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\steph\Desktop\singularity\singularity\build-vc140\llcommon\CMakeFiles\stage_third_party_libs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B963FCF5-2826-3F84-A4CB-28A784CB0513}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
